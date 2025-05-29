@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Serviços - Livraria Online</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='livros.css')}}">
+</head>
+<body>
+  <header>
+    <h1>Serviços da Livraria Online</h1>
+    <p>Explore nossa variedade de livros cuidadosamente selecionados, com categorias para todos os gostos e sinopses para ajudar na sua escolha.</p>
+  </header>
+  <section class="books-grid" aria-label="Lista de livros disponíveis">
+    <article class="book-card" tabindex="0">
+      <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=400&q=80" alt="Capa do livro 'Aventuras na Ficção'" class="book-cover" />
+      <div class="book-info">
+        <div class="book-category">Ficção</div>
+        <h2 class="book-title">Aventuras na Ficção</h2>
+        <p class="book-synopsis">Uma emocionante jornada por mundos imaginários, repleto de personagens marcantes e reviravoltas surpreendentes.</p>
+      </div>
+    </article>
+    <article class="book-card" tabindex="0">
+      <img src="https://images.unsplash.com/photo-1476958526483-36efcaa80dfd?auto=format&fit=crop&w=400&q=80" alt="Capa do livro 'Romance à Beira-Mar'" class="book-cover" />
+      <div class="book-info">
+        <div class="book-category">Romance</div>
+        <h2 class="book-title">Romance à Beira-Mar</h2>
+        <p class="book-synopsis">Uma história de amor inesquecível entre duas almas que se encontram em meio ao som das ondas do mar.</p>
+      </div>
+    </article>
+    <article class="book-card" tabindex="0">
+      <img src="https://images.unsplash.com/photo-1551022379-3e0ffda56699?auto=format&fit=crop&w=400&q=80" alt="Capa do livro 'Ciências do Cotidiano'" class="book-cover" />
+      <div class="book-info">
+        <div class="book-category">Ciência</div>
+        <h2 class="book-title">Ciências do Cotidiano</h2>
+        <p class="book-synopsis">Uma abordagem acessível sobre os princípios científicos que regem nossa vida diária, com exemplos práticos.</p>
+      </div>
+    </article>
+    <article class="book-card" tabindex="0">
+      <img src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=400&q=80" alt="Capa do livro 'Histórias do Passado'" class="book-cover" />
+      <div class="book-info">
+        <div class="book-category">História</div>
+        <h2 class="book-title">Histórias do Passado</h2>
+        <p class="book-synopsis">Um mergulho profundo em eventos históricos que moldaram o mundo moderno, contado com detalhes vívidos e envolventes.</p>
+      </div>
+    </article>
+    <article class="book-card" tabindex="0">
+      <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=400&q=80" alt="Capa do livro 'Fantasia Épica'" class="book-cover" />
+      <div class="book-info">
+        <div class="book-category">Fantasia</div>
+        <h2 class="book-title">Fantasia Épica</h2>
+        <p class="book-synopsis">Dragões, magos e reinos distantes em um universo mágico de batalhas lendárias e aventuras épicas.</p>
+      </div>
+    </article>
+    <article class="book-card" tabindex="0">
+      <img src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=400&q=80" alt="Capa do livro 'Tecnologia Hoje'" class="book-cover" />
+      <div class="book-info">
+        <div class="book-category">Tecnologia</div>
+        <h2 class="book-title">Tecnologia Hoje</h2>
+        <p class="book-synopsis">Um panorama atualizado das inovações tecnológicas que estão transformando o mundo ao nosso redor.</p>
+      </div>
+    </article>
+  </section>
+  <footer>
+    &copy; 2024 Livraria Online. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
