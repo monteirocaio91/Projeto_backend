@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cadastro - Livraria Online</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+  
+</head>
+<body>
+  <div class="container" role="main" aria-label="Formulário de cadastro para livraria online">
+    <header>
+      <div class="header-icon" aria-hidden="true">📚</div>
+      <h1>Livraria Online</h1>
+      <p>Cadastre-se para começar a explorar nossos livros</p>
+    </header>
+    <form action="#" method="post" novalidate>
+      <label for="nome">Nome Completo</label>
+      <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required autocomplete="name" />
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" placeholder="exemplo@dominio.com" required autocomplete="email" />
+
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" name="senha" placeholder="Crie uma senha segura" required autocomplete="new-password" minlength="6" />
+
+      <label for="confirmarSenha">Confirmar Senha</label>
+      <input type="password" id="confirmarSenha" name="confirmarSenha" placeholder="Repita a senha" required autocomplete="new-password" minlength="6" />
+
+      <button type="submit" aria-label="Enviar cadastro">Cadastrar</button>
+    </form>
+    <p class="footer-text">
+      Já tem uma conta?
+      <a href="#" tabindex="0">Faça login</a>
+    </p>
+  </div>
+</body>
+</html>
+
