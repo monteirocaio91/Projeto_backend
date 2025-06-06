@@ -7,9 +7,9 @@ main_bp = Blueprint('user', __name__)
 def index():
     return render_template('index.html')
 
-@main_bp.route('/servicos')
+@main_bp.route('/services')
 def servicos():
-    return render_template('servicos.html')
+    return render_template('services.html')
 
 @main_bp.route('/register')
 def servicos():

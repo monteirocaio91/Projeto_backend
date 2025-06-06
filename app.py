@@ -7,7 +7,7 @@ app.secret_key = 'yahoo'
 
 # registrar os blueprints
 app.register_blueprint(main_bp)
-app.register_blueprint(usuario_bp, url_prefix='/usuario')
+app.register_blueprint(usuario_bp, url_prefix='/user')
 
 if __name__ =='__main__':
     app.run(debug=True)
