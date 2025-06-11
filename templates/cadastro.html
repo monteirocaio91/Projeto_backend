@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Cadastro - Livraria Online</title>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="{{ url_for('static', filename='register.css')}}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='cadastro.css')}}">
 </head>
 <body>
   <div class="container" role="main" aria-label="Formulário de cadastro para livraria online">
@@ -13,7 +13,7 @@
       <h1>Livraria Online</h1>
       <p>Crie sua conta e comece sua jornada literária conosco</p>
     </header>
-    <form action="#" method="post" novalidate>
+    <form action="{{url_for()}}" method="post" novalidate>
       <label for="nome">Nome Completo</label>
       <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required autocomplete="name" />
 
